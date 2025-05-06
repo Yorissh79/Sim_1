@@ -45,7 +45,7 @@ const Fisection = () => {
             </div>
 
             <div className={style.cards}>
-                {data?.map(item => <Card item={item}/>)}
+                {data?.map(item => <Card item={item} who={"add"}/>)}
             </div>
         </div>
     )
