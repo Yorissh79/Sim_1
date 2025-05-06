@@ -7,6 +7,7 @@
     justify-content: center;
     background-image: -webkit-linear-gradient(45deg, #f6463d 0%, #f6398d 45%, #f52cdc 100%);
     position: relative;
+    
 
     .imgbox {
         position: absolute;
@@ -63,6 +64,28 @@
                 color: white;
             }
         }
+    }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+    .main {
+        height: 700px;
+        .imgbox {
+            top: 0px;
+            left: 40px;
+            width: 288px;
+            height: 196px;
+            margin: 40px 16px 0px;
+        }
+
+        .text {
+            bottom: 0px;
+            width: 100%;
+            left: 0px;
+        }
+
     }
 
 }

@@ -1,0 +1,27 @@
+.main {
+    width: 255px;
+    height: 75.5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    .text {
+        p {
+            font-size: 14px;
+        }
+
+        .in {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            p {
+                font-weight: 600;
+                font-size: 14px;
+            }
+        }
+
+    }
+}

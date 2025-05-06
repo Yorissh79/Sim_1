@@ -2,6 +2,7 @@ import React from 'react'
 import style from './Header.module.scss'
 import { Link } from 'react-router'
 import { IoMdArrowDropdown } from "react-icons/io";
+import { CiMenuBurger } from 'react-icons/ci';
 
 const Header = () => {
     return (
@@ -23,6 +24,10 @@ const Header = () => {
                         <li>Category</li>
                     </ul>
                 </Link>
+            </div>
+
+            <div className={style.burger}>
+                <CiMenuBurger/>
             </div>
         </div>
     )

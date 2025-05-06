@@ -1,0 +1,33 @@
+.main {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 0;
+
+    .text {
+        text-align: center;
+        .f {
+            margin-bottom: 10px;
+            font-size: 36px;
+            font-weight: 600;
+        }
+
+        .s {
+            margin-top: 0;
+            margin-bottom: 1rem;
+            color: #2222226d;
+            font-size: 14px;
+        }
+    }
+
+    .cards {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 80%;
+    }
+}

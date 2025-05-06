@@ -33,8 +33,8 @@ const Card = ({item}) => {
             </div>
 
             <div className={style.text}>
-                <p className={style.f}>Long Sleeve shirt</p>
-                <p className={style.s}>$150.00</p>
+                <p className={style.f}>{item.name}</p>
+                <p className={style.s}>${item.price}</p>
             </div>
 
 
