@@ -1,0 +1,32 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 56px;
+    padding: 10px;
+
+    .imgbox {
+
+        img {
+
+        }
+
+    }
+
+    .pages {
+
+        a {
+            text-decoration: none;
+            color: black;
+            .page{
+                display: none;
+                li {
+
+                }
+            }
+
+        }
+
+    }
+
+}
