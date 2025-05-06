@@ -11,8 +11,8 @@ const Header = () => {
             </div>
 
             <div className={style.pages}>
-                <Link to={"/"}>Home</Link>
-                <Link to={"/category"}>category</Link>
+                <Link to={"/"} href="/home">Home</Link>
+                <Link to={"/category"} href="/category">category</Link>
                 <Link to={"/men"}>men</Link>
                 <Link to={"/women"}>women</Link>
                 <Link to={"/latest"}>latest</Link>

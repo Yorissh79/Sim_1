@@ -4,8 +4,17 @@
     justify-content: space-evenly;
     height: 56px;
     padding: 10px;
+    position: sticky;
+    top: 0px;
+    z-index: 10001;
+    background-color: white;
 
     .imgbox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        height: 100%;
 
         img {
 
@@ -14,10 +23,17 @@
     }
 
     .pages {
-
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        width: 70%;
         a {
             text-decoration: none;
             color: black;
+            font-size: 15   px;
+            font-weight: 600;
+            text-transform: uppercase;
             .page{
                 display: none;
                 li {
